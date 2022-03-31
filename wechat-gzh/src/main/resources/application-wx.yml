@@ -1,11 +1,5 @@
 #微信支付配置信息
 wechat:
-  pay:
-    app-id: wx8094961ece166419 #sandBox 个人测试号
-    mch-id: 1493799942
-    key: 16c794c6f95e347ca1b849abd84629c1 #sandbox 个人测试号
-    notify-url: http://zuzwci.natappfree.cc/api/wxpay/pay-notify #支付回调接口
-    use-sandbox: true
   gzh: #公众号
     app-id: wx8094961ece166419   #sandbox
     secret: 16c794c6f95e347ca1b849abd84629c1   #sandbox
