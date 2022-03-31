@@ -1,0 +1,25 @@
+#微信支付配置信息
+wechat:
+  pay:
+#    app-id: wxc926d81156adf3f7  #sandBox 鲁颁测试号
+    app-id: wx8094961ece166419 #sandBox 个人测试号
+#    app-id: wxdf2eb0e5e3dc7562  #formal  鲁颁的
+    mch-id: 1493799942
+#    key: df4e2ccad96911e79df400155dc598b0 #formal  商户号的key
+#    key: e413bbd1424864f096350927ca7716c3 #sandbox 鲁颁测试号
+    key: 16c794c6f95e347ca1b849abd84629c1 #sandbox 个人测试号
+    notify-url: http://zuzwci.natappfree.cc/api/wxpay/pay-notify #支付回调接口
+    use-sandbox: true
+  gzh: #公众号
+#    app-id: wxdf2eb0e5e3dc7562   #formal
+#    secret: fe02319c1eeda5e7f415153862ce990c   #formal
+#    welcome-content: 欢迎使用鲁颁建筑资质服务平台，您已登陆成功！   #formal
+#    bind-content: 微信绑定成功,当前账号为   #formal
+#    regitster-content: 扫码成功，请继续使用手机号完成注册！   #sandbox
+#    account: gh_70478504a801   #formal
+    app-id: wx8094961ece166419   #sandbox
+    secret: 16c794c6f95e347ca1b849abd84629c1   #sandbox
+    welcome-content: 欢迎使用鲁颁建筑资质服务平台，您已登陆成功！   #sandbox
+    bind-content: 微信绑定成功,当前账号为%s   #sandbox
+    register-content: 扫码成功，请继续使用手机号完成注册！   #sandbox
+    account: gh_fd17266ee510   #sandbox
