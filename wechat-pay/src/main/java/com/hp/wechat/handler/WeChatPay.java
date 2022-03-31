@@ -53,6 +53,8 @@ public class WeChatPay {
         this.useSandbox = config.getUseSandbox();
         if (this.useSandbox) {
             this.signType = WeChatPayConstant.SignType.MD5; // 沙箱环境
+            final String sandboxKey = WeChatPayUtil.requestSandboxKey(config);
+            this.config.setKey(sandboxKey);
         } else {
             this.signType = WeChatPayConstant.SignType.MD5; // 此处原来不是MD5！！！
         }

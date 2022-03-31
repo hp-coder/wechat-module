@@ -15,6 +15,8 @@ public interface WeChatPayConfig {
 
     String getKey();
 
+    void setKey(String key);
+
     default InputStream getCertStream() {
         return null;
     }
